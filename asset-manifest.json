@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Kaikanes-Portfolio/static/css/main.7d3bfd5f.css",
+    "main.js": "/Kaikanes-Portfolio/static/js/main.f4fcc430.js",
+    "index.html": "/Kaikanes-Portfolio/index.html",
+    "main.7d3bfd5f.css.map": "/Kaikanes-Portfolio/static/css/main.7d3bfd5f.css.map",
+    "main.f4fcc430.js.map": "/Kaikanes-Portfolio/static/js/main.f4fcc430.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d3bfd5f.css",
+    "static/js/main.f4fcc430.js"
+  ]
+}
