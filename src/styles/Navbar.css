@@ -1,5 +1,16 @@
 .navbar {
-  background: #6a1b9a;
+  background: #F8F991;
  
 }
-
+li:hover {
+  background-color: #dee261;
+}
+li{
+  border-radius: 5%;
+}
+/* list of colors
+9AB87A
+708B75
+444B6E
+3D315B
+*/
