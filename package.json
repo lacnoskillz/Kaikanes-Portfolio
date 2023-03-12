@@ -4,6 +4,9 @@
   "private": true,
   "homepage": "https://lacnoskillz.github.io/Kaikanes-Portfolio/",
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-regular": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-regular-svg-icons": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
@@ -12,11 +15,13 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.3.4",
+    "babel-plugin-macros": "^3.1.0",
     "bootstrap": "^5.2.3",
     "dotenv": "^16.0.3",
     "gh-pages": "^5.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-icons": "^4.8.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
