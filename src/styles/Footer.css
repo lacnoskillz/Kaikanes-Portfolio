@@ -1,0 +1,8 @@
+.footerdiv{
+    height: 15vh;
+    width:  100%;
+    display: block;
+    background-color: #3D315B;
+    position: fixed;
+    bottom:0;
+}

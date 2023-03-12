@@ -1,0 +1,15 @@
+.aboutdiv{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.aboutcontainer{
+    background-color: #444B6E;
+    display: flex;
+    flex-direction: column;
+    padding: 3vh;
+    height: 100%;
+    
+}
+html,body {height: 100%}
