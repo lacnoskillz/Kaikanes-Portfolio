@@ -1,9 +1,12 @@
 .navbar {
-  background: #F8F991;
- 
+  background: #708B75;
+ margin-left:  3px;
+ margin-right:  3px;
+ border-radius: 3px;
 }
 li:hover {
-  background-color: #dee261;
+  background-color: #596e5d;
+  border-radius: 15%;
 }
 li{
   border-radius: 5%;
