@@ -1,5 +1,6 @@
-.Portfoliocontainer{
-    align-items: center;
+.Contactcontainer{
+    
+    justify-content: space-around;
     background-color: #F8F991;
     display: flex;
     flex-direction: column;
@@ -11,7 +12,3 @@
     font-size: x-large;
 }
 
-/* @media screen and (max-width: 580px ) {
-   
-    }
-  } */
