@@ -1,0 +1,19 @@
+.Portfoliocontainer{
+    align-items: center;
+    background-color: #F8F991;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2%;
+    margin: 3px;
+    padding: 3vh;
+    height: 100vh;
+    width: 100%;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 580px ) {
+    .aboutcontainer{
+      height: 100%;
+      font-size: large;
+    }
+  }

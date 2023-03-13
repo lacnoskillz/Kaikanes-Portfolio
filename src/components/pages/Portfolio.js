@@ -1,8 +1,8 @@
 import React from 'react';
-
+import '../../styles/Portfolio.css';
 export default function Portfolio() {
   return (
-    <div>
+    <div className='Portfoliocontainer'>
       <h1>Portfolio</h1>
       <p>
       my projects
