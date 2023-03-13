@@ -7,8 +7,8 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='Navcontainer'>
     <h1>Kaikane</h1>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
-      <div class="container-fluid">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary" >
+      <div className="container-fluid">
       <ul className="navbar-nav">
       <li className="nav-item">
           <a
