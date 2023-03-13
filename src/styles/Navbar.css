@@ -16,7 +16,12 @@ li:hover {
 li{
   border-radius: 5%;
 }
-
+@media screen and (max-width: 580px ) {
+  .Navcontainer{
+    justify-content: start;
+    height: 25vh;
+  }
+}
 /* list of colors
 9AB87A
 708B75
