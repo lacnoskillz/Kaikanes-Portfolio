@@ -3,10 +3,10 @@ import '../../styles/Portfolio.css';
 export default function Portfolio() {
   return (
     <div className='Portfoliocontainer'>
-      <h1>Portfolio</h1>
-      <p>
+      <h2>Portfolio</h2>
+      <h3>
       my projects
-      </p>
+      </h3>
     </div>
   );
 }

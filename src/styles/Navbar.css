@@ -8,6 +8,9 @@
  align-items: center;
  justify-content: space-around;
  height: 10vh;
+ border: 2px solid #444B6E;
+ 
+ 
 }
 li:hover {
   background-color: #596e5d;
@@ -15,12 +18,16 @@ li:hover {
 }
 li{
   border-radius: 5%;
+  font-size: x-large;
 }
 @media screen and (max-width: 580px ) {
   .Navcontainer{
     justify-content: start;
     height: 25vh;
   }
+}
+h1 {
+  font-size: 400px;
 }
 /* list of colors
 9AB87A

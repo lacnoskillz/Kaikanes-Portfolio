@@ -3,7 +3,7 @@ import '../../styles/Contact.css'
 export default function Contact() {
   return (
     <div className='Contactcontainer'>
-      <div><h1>Contact Me</h1>
+      <div><h2>Contact Me</h2>
       </div>
       <form required>
       <div className="mb-3">

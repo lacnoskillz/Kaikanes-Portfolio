@@ -6,7 +6,7 @@ export default function About() {
     <div className='aboutcontainer'>
       <img src={Profilepic} alt="a selfie of me"/> 
     <div className='Pagetitle'>
-    <h1>About me</h1>
+    <h2>About me</h2>
     </div>
     <div className='aboutdiv'>
        
