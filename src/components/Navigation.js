@@ -5,6 +5,8 @@ import '../styles/Navbar.css';
 // we can grab the two values because we are passing them in the parent into the props
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <div className='Navcontainer'>
+    <h1>Kaikane</h1>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" >
       <div class="container-fluid">
       <ul className="navbar-nav">
@@ -55,6 +57,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </ul>
       </div>
     </nav>
+    </div>
   );
 }
 

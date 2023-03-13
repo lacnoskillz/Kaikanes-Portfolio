@@ -1,8 +1,13 @@
-.navbar {
+.Navcontainer {
   background: #708B75;
  margin-left:  3px;
  margin-right:  3px;
  border-radius: 3px;
+ display: flex;
+ padding-left: 4vh;
+ align-items: center;
+ justify-content: space-around;
+ height: 10vh;
 }
 li:hover {
   background-color: #596e5d;
@@ -11,6 +16,7 @@ li:hover {
 li{
   border-radius: 5%;
 }
+
 /* list of colors
 9AB87A
 708B75

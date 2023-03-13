@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../styles/About.css'
-
+import Profilepic from '../../images/IMG_0842.JPG'
 export default function About() {
   return (
     <div className='aboutcontainer'>
-      <img src="../../../public/images/IMG_0842JPG" alt="a selfie of me"/> 
+      <img src={Profilepic} alt="a selfie of me"/> 
     <div className='Pagetitle'>
     <h1>About me</h1>
     </div>
