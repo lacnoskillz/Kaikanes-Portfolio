@@ -1,10 +1,8 @@
 .Navcontainer {
   background: #708B75;
- margin-left:  3px;
- margin-right:  3px;
  border-radius: 3px;
  display: flex;
- padding-left: 4vh;
+
  align-items: center;
  justify-content: space-around;
  height: 10vh;
@@ -22,13 +20,14 @@ li{
 }
 @media screen and (max-width: 580px ) {
   .Navcontainer{
-    justify-content: start;
+   
     height: 25vh;
   }
+  li{
+    font-size: large;
+  }
 }
-h1 {
-  font-size: 400px;
-}
+
 /* list of colors
 9AB87A
 708B75

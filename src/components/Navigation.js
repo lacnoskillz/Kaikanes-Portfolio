@@ -1,11 +1,13 @@
 import React from 'react';
 import '../styles/Navbar.css';
 import { GiBigWave } from "react-icons/gi";
+// import backimg from '../images/pb.jpg'
 
 // we can grab the two values because we are passing them in the parent into the props
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='Navcontainer'>
+
     <h1>Kaikane <GiBigWave size= '2em'/></h1> 
     <nav className="navbar navbar-expand-sm bg-body-tertiary" >
       <div className="container-fluid">

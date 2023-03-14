@@ -1,17 +1,17 @@
 
 .aboutcontainer{
-    align-items: center;
-    background-color: #F8F991;
-    display: flex;
-    flex-direction: column;
-    border-radius: 1%;
-    border: 2px solid #444B6E;
-    
-    padding: 20%;
-    height: 100vh;
-    width: 100%;
-    font-size: x-large;
-    justify-content: center;
+  align-items: center;
+  background-color: #F8F991;
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+  border: 2px solid #444B6E;
+  border-radius: 1%;
+  padding: 2%;
+  height: 100%;
+  
+  font-size: x-large;
+  justify-content: center;
 }
 img{
     height: 40vh;

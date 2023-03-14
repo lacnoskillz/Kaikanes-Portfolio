@@ -43,9 +43,9 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <h1>Kaikane</h1>,
-    <div>
     
+    <div>
+    {/* <h1>Kaikane</h1> */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
