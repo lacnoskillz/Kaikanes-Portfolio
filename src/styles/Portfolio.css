@@ -1,18 +1,24 @@
 .Portfoliocontainer{
-    align-items: center;
+   
     background-color: #F8F991;
-    display: flex;
-    flex-direction: column;
+    
+    flex-direction: row;
     margin: 3%;
     border: 2px solid #444B6E;
     border-radius: 1%;
     padding: 2%;
     height: 100%;
+    flex-wrap: wrap;
     
     font-size: x-large;
-    justify-content: center;
+    justify-content: space-between;
 }
-
+.projectcontainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 2%;
+}
 /* @media screen and (max-width: 580px ) {
    
     }
