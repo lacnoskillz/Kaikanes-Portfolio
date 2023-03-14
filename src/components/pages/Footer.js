@@ -12,9 +12,9 @@ export default function About() {
     <li className="nav-item">
       <a className="nav-link" href="https://github.com/lacnoskillz"><FaGithub size='3em'/></a>
     </li>
-    <li className="nav-item">
+    {/* <li className="nav-item">
       <a className="nav-link" href="mailto:kaikane3457@example.com"><FaMailBulk size='3em'/></a>
-    </li>
+    </li> */}
     <li className="nav-item">
       <a className="nav-link" href="https://stackoverflow.com/users/21394229/lacnoskillz"><BsStackOverflow size='3em'/></a>
     </li>

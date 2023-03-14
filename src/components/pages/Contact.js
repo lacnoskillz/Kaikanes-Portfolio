@@ -24,3 +24,8 @@ export default function Contact() {
     </div>
   );
 }
+// use this for click event?
+// document.onclick = e => {
+//   if (e.currentTarget !== document.forms[0])
+//     document.forms[0].reset()
+// }
