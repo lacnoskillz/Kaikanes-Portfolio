@@ -10,7 +10,7 @@ import calendar from '../../images/planner.png'
 export default function Portfolio() {
   return (
     <div className='Portfoliocontainer'>
-      <div>
+      <div className="porttitle">
         <h2>Portfolio</h2>
         <h3>
           Here are my projects

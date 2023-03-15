@@ -1,12 +1,16 @@
 .projectDiv {
   display: flex;
-  padding: 5%;
+ 
 flex:1;
-
+width: 300px;
+height: 450px;
+justify-content: space-around;
+border: 2px solid #6e5c44;
+margin: 10%;
 }
 
 img {
-  height: 24vh;
+  height: 40%;
   width: 24vh;
 }
 
@@ -19,3 +23,14 @@ img {
 
   background-color: #444B6E;
 }
+ @media screen and (max-width: 670px ) {
+   .projectDiv{
+    display: flex;
+    width: auto;
+    height: auto;
+  justify-content: center;
+  border: 2px solid #6e5c44;
+  margin: 10%;
+   }
+    }
+   

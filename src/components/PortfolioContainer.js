@@ -28,13 +28,13 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return(
         <div>
-       <Portfolio /> <Footer />
+        <Portfolio /> <Footer />
        </div>
       );
     }
     return(
       <div>
-     <Header/> <About /> <Footer/>
+      <About /> <Footer/>
      </div>
     );;
     
