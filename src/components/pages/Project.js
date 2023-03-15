@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/Project.css'
-export default function project() {
+export default function project({name,details}) {
   return (
     <div className='projectDiv'>
   <div className="card text-center">
@@ -8,9 +8,9 @@ export default function project() {
     Projectname
   </div>
   <div className="card-body">
-    <h5 className="card-title">Project title</h5>
-    <p className="card-text">details about project</p>
-    <a href="123" className="btn btn-primary">Go somewhere</a>
+    <h5 className="card-title">{name}</h5>
+    <p className="card-text">{details}</p>
+    <a href="123" className="btn btn-primary">Deployed</a>
   </div>
 </div>
     </div>

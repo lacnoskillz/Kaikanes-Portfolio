@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/Portfolio.css';
 import Project from './Project.js'
+import doggy from '../../images/doggydaze.png'
 export default function Portfolio() {
   return (
     <div className='Portfoliocontainer'>
@@ -14,7 +15,7 @@ export default function Portfolio() {
       </div>
       <div className='projectcontainer'>
       <div>
-        <Project />
+        <Project name="kai" img={doggy}/>
       </div>
       <div>
         <Project />
