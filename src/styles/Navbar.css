@@ -2,11 +2,12 @@
   background: #708B75;
  border-radius: 3px;
  display: flex;
-
+align-content: flex-start;
  align-items: center;
  justify-content: space-around;
  height: 10vh;
  border: 2px solid #444B6E;
+ width: 70%;
  
  
 }

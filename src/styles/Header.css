@@ -1,6 +1,9 @@
 .headerdiv{
     display: flex;
     justify-content: flex-start;
-    background-color:   #F8F991;
-    height: 20vh;
+    height: 10vh;
+    width: 20%;
+    border-radius: 3px;
+    border: 2px solid #444B6E;
+    background: #708B75;
 }

@@ -1,9 +1,21 @@
-.projectDiv{
+.projectDiv {
   display: flex;
- padding: 5%;
- 
+  padding: 5%;
+flex:1;
+
 }
-img{
+
+img {
   height: 24vh;
   width: 24vh;
+}
+
+.btn {
+  margin: 2%;
+
+}
+
+.btn-primary {
+
+  background-color: #444B6E;
 }
