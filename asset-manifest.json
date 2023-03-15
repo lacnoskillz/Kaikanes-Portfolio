@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kaikanes-Portfolio/static/css/main.1a9a8f87.css",
-    "main.js": "/Kaikanes-Portfolio/static/js/main.be98770a.js",
+    "main.css": "/Kaikanes-Portfolio/static/css/main.a2c04da0.css",
+    "main.js": "/Kaikanes-Portfolio/static/js/main.51309fca.js",
     "static/media/IMG_0842.JPG": "/Kaikanes-Portfolio/static/media/IMG_0842.e9d732e03aa9ca4f84b0.JPG",
     "static/media/moviesearch.png": "/Kaikanes-Portfolio/static/media/moviesearch.7dc214c4fa141e44a7cf.png",
     "static/media/doggydaze.png": "/Kaikanes-Portfolio/static/media/doggydaze.ada7f9c8a882fd6b256b.png",
@@ -11,11 +11,11 @@
     "static/media/textedit.png": "/Kaikanes-Portfolio/static/media/textedit.1c1129579c29e991b9a0.png",
     "static/media/kaikaneresume.pdf": "/Kaikanes-Portfolio/static/media/kaikaneresume.13f36a217dab0fb92d47.pdf",
     "index.html": "/Kaikanes-Portfolio/index.html",
-    "main.1a9a8f87.css.map": "/Kaikanes-Portfolio/static/css/main.1a9a8f87.css.map",
-    "main.be98770a.js.map": "/Kaikanes-Portfolio/static/js/main.be98770a.js.map"
+    "main.a2c04da0.css.map": "/Kaikanes-Portfolio/static/css/main.a2c04da0.css.map",
+    "main.51309fca.js.map": "/Kaikanes-Portfolio/static/js/main.51309fca.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a9a8f87.css",
-    "static/js/main.be98770a.js"
+    "static/css/main.a2c04da0.css",
+    "static/js/main.51309fca.js"
   ]
 }
