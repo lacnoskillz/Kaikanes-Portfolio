@@ -7,6 +7,8 @@ import weather from '../../images/weather.png'
 import text from '../../images/textedit.png'
 import blog from '../../images/techblog.png'
 import calendar from '../../images/planner.png'
+//import React and style sheet for react component Portfolio
+//import images to be used for each project
 export default function Portfolio() {
   return (
     <div className='Portfoliocontainer'>
@@ -16,10 +18,11 @@ export default function Portfolio() {
           Here are my projects
         </h3>
 
-
+     
       </div>
       <div className='projectcontainer'>
         <div>
+          {/* set and pass name, details, link, repo, img for Project component  */}
           <Project name="Doggydaze" img={doggy} details="app to find establishments for you and your dog!" link="https://ancient-plains-63296.herokuapp.com/" repo="https://github.com/RosalvaMartinez/doggydaze" />
         </div>
         <div>

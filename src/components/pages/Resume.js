@@ -6,6 +6,9 @@ import { DiNpm, DiCss3 } from 'react-icons/di'
 import { TbBrandJavascript } from 'react-icons/tb'
 import { GrMysql } from 'react-icons/gr'
 import '../../styles/Resume.css'
+// import React
+// import icons for Resume component
+// import resume from images folder and make it downloadable
 export default function Resume() {
   return (
     <div className='resumecontainer'>

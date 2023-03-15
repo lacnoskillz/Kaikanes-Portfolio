@@ -6,10 +6,11 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Header from './pages/Header'
 import Footer from './pages/Footer'
+//import all components React and useState
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
-  
+  // renderPage function that renders page depending on what currentPage variable is equall too
   const renderPage = () => {
     if (currentPage === 'Resume') {
       return (
@@ -43,7 +44,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    
+    // Calls Navigation.js and passes the current page to it and calls render page function
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}

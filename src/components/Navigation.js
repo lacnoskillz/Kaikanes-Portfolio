@@ -7,7 +7,7 @@ import { GiBigWave } from "react-icons/gi";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='Navcontainer'>
-
+{/* header with navbar logic to render page depending on which nav element was clicked */}
     <h1>Kaikane <GiBigWave size= '1em'/></h1> 
     <nav className="navbar navbar-expand-sm bg-body-tertiary" >
       <div className="container-fluid">

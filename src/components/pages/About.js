@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../styles/About.css'
 import Profilepic from '../../images/IMG_0842.JPG'
+// import react and style sheet and image
+// react card for about me section
 export default function About() {
   return (
     <div className='aboutcontainer'>

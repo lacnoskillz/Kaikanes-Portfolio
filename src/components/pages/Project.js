@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/Project.css'
 export default function project({ name, details, link, repo, img }) {
+  //import React and style sheet for Project component
   return (
     <div className='projectDiv'>
       <div className="card text-center">

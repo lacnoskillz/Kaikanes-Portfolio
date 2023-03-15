@@ -1,7 +1,8 @@
 import React from 'react';
 import '../../styles/Contact.css'
 export default function Contact() {
-
+// import react and style sheet for contact.js
+// react card for Contact section
   return (
     <div className='Contactcontainer'>
       <div><h2>Contact Me</h2>
@@ -9,6 +10,7 @@ export default function Contact() {
       <form required>
         <div className="mb-3">
           <label className="form-label">Name</label>
+          {/* added onBlur that runs logic that adds a span when its empty and user clicks off dom else its invisible */}
           <input type="name" className="form-control" id="name" onBlur={(e) => {
             if (!e.target.value) {
               document.getElementById('nameerr').innerHTML = '<span style="color:red;">This field is required.</span>'
