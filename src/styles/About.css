@@ -13,7 +13,7 @@
   font-size: x-large;
   justify-content: center;
 }
-img{
+.profilepic{
     height: 40vh;
     width: 40vh;
     border-radius: 50%;

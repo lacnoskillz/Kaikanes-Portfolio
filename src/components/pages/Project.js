@@ -1,16 +1,19 @@
 import React from 'react';
 import '../../styles/Project.css'
-export default function project({name,details}) {
+export default function project({name,details,link,repo, img}) {
   return (
     <div className='projectDiv'>
   <div className="card text-center">
+  <img src={img} class="card-img-top" alt="..."></img>
   <div className="card-header">
-    Projectname
+   
+   {name}
   </div>
   <div className="card-body">
-    <h5 className="card-title">{name}</h5>
-    <p className="card-text">{details}</p>
-    <a href="123" className="btn btn-primary">Deployed</a>
+    <h5 className="card-title">{details}</h5>
+   
+    <a href={link} className="btn btn-primary">app</a>
+    <a href={repo} className="btn btn-primary">repo</a>
   </div>
 </div>
     </div>

@@ -4,7 +4,7 @@ import Profilepic from '../../images/IMG_0842.JPG'
 export default function About() {
   return (
     <div className='aboutcontainer'>
-      <img src={Profilepic} alt="a selfie of me"/> 
+      <img className="profilepic" src={Profilepic} alt="a selfie of me"/> 
     <div className='Pagetitle'>
     <h2>About me</h2>
     </div>
