@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/Kaikanes-Portfolio/static/css/main.b269c26c.css",
-    "main.js": "/Kaikanes-Portfolio/static/js/main.565e16b9.js",
+    "main.css": "/Kaikanes-Portfolio/static/css/main.1a9a8f87.css",
+    "main.js": "/Kaikanes-Portfolio/static/js/main.be98770a.js",
     "static/media/IMG_0842.JPG": "/Kaikanes-Portfolio/static/media/IMG_0842.e9d732e03aa9ca4f84b0.JPG",
+    "static/media/moviesearch.png": "/Kaikanes-Portfolio/static/media/moviesearch.7dc214c4fa141e44a7cf.png",
+    "static/media/doggydaze.png": "/Kaikanes-Portfolio/static/media/doggydaze.ada7f9c8a882fd6b256b.png",
+    "static/media/weather.png": "/Kaikanes-Portfolio/static/media/weather.ad6b9d0267bdecae04ab.png",
+    "static/media/planner.png": "/Kaikanes-Portfolio/static/media/planner.84190a36d1a92c70a718.png",
+    "static/media/techblog.png": "/Kaikanes-Portfolio/static/media/techblog.2c9cf838cb7755ed26a3.png",
+    "static/media/textedit.png": "/Kaikanes-Portfolio/static/media/textedit.1c1129579c29e991b9a0.png",
+    "static/media/kaikaneresume.pdf": "/Kaikanes-Portfolio/static/media/kaikaneresume.13f36a217dab0fb92d47.pdf",
     "index.html": "/Kaikanes-Portfolio/index.html",
-    "main.b269c26c.css.map": "/Kaikanes-Portfolio/static/css/main.b269c26c.css.map",
-    "main.565e16b9.js.map": "/Kaikanes-Portfolio/static/js/main.565e16b9.js.map"
+    "main.1a9a8f87.css.map": "/Kaikanes-Portfolio/static/css/main.1a9a8f87.css.map",
+    "main.be98770a.js.map": "/Kaikanes-Portfolio/static/js/main.be98770a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b269c26c.css",
-    "static/js/main.565e16b9.js"
+    "static/css/main.1a9a8f87.css",
+    "static/js/main.be98770a.js"
   ]
 }
