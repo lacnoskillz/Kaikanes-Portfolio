@@ -23,7 +23,7 @@ export default function Contact() {
         <div className="mb-3">
           <label className="form-label">Email address</label>
           <input type="email" className="form-control" id="email" aria-describedby="emailHelp" required={true} onChange={(e) => {
-          if(e.target.value.match(/.+@.+\..+/)){
+           if(e.target.value.match(/.+@.+\..+/)){
               document.getElementById('emailerr').innerHTML = ''
             }else {
               document.getElementById('emailerr').innerHTML = '<span style="color:red;">Incorrect Email Format</span>'
@@ -31,8 +31,10 @@ export default function Contact() {
           }} onBlur={(e) => {
             if (!e.target.value) {
               document.getElementById('emailerr').innerHTML = '<span style="color:red;">This field is required.</span>'
-            } else {
+            } else if(e.target.value.match(/.+@.+\..+/)){
               document.getElementById('emailerr').innerHTML = ''
+            }else {
+              document.getElementById('emailerr').innerHTML = '<span style="color:red;">Incorrect Email Format</span>'
             }
           }}></input>
           <div id='emailerr'></div>
