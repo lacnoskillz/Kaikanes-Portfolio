@@ -22,13 +22,17 @@ export default function Contact() {
         </div>
         <div className="mb-3">
           <label className="form-label">Email address</label>
-          <input type="email" className="form-control" id="email" aria-describedby="emailHelp" required={true}  onBlur={(e) => {
-            if (!e.target.value) {
-              document.getElementById('emailerr').innerHTML = '<span style="color:red;">This field is required.</span>'
-            } else if(e.target.value.match(/.+@.+\..+/)){
+          <input type="email" className="form-control" id="email" aria-describedby="emailHelp" required={true} onChange={(e) => {
+          if(e.target.value.match(/.+@.+\..+/)){
               document.getElementById('emailerr').innerHTML = ''
             }else {
               document.getElementById('emailerr').innerHTML = '<span style="color:red;">Incorrect Email Format</span>'
+            }
+          }} onBlur={(e) => {
+            if (!e.target.value) {
+              document.getElementById('emailerr').innerHTML = '<span style="color:red;">This field is required.</span>'
+            } else {
+              document.getElementById('emailerr').innerHTML = ''
             }
           }}></input>
           <div id='emailerr'></div>
