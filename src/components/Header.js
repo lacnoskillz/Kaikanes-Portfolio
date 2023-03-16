@@ -4,10 +4,12 @@ import Resume from './pages/Resume';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-import Header from './pages/Header'
+import '../styles/Header.css'
+ import { GiBigWave } from "react-icons/gi";
+
 import Footer from './pages/Footer'
 //import all components React and useState
-export default function PortfolioContainer() {
+export default function Header() {
   const [currentPage, setCurrentPage] = useState('About');
 
   // renderPage function that renders page depending on what currentPage variable is equall too
@@ -15,7 +17,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Resume') {
       return (
         <div>
-      <Resume /> <Footer />
+         <Resume /> <Footer />
       </div>
       );
     }
@@ -46,6 +48,9 @@ export default function PortfolioContainer() {
   return (
     // Calls Navigation.js and passes the current page to it and calls render page function
     <div>
+         <div className='headerdiv'>
+      <h1>Kaikane <GiBigWave size='1em' /></h1>
+    </div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>

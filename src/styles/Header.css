@@ -1,9 +1,14 @@
+
+
 .headerdiv{
+    background-image: url('../images/greenbanner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     height: 10vh;
-    width: 20%;
-    border-radius: 3px;
-    
-    background: #708B75;
+    width: 100%;
+    align-items: center;
+    border-bottom: solid black;
+    /* background: #708B75; */
 }

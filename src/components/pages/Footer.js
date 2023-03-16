@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/Footer.css'
-import { FaLinkedin, FaGithub, FaMailBulk } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsStackOverflow } from 'react-icons/bs'
 //import react and style sheet for Footer.js
 // import icons used in footer react component
