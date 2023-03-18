@@ -26,7 +26,7 @@ export default function Portfolio() {
           <Project name="Doggydaze" img={doggy} details="app to find establishments for you and your dog!" link="https://ancient-plains-63296.herokuapp.com/" repo="https://github.com/RosalvaMartinez/doggydaze" />
         </div>
         <div>
-          <Project name="Movie Search Application" img={movie} details="app to search and find details on movies" link="https://calebcarnett.github.io/Movie-Search-Application/" repo="https://github.com/calebcarnett/Movie-Search-Application" />
+          <Project name="Movie Night" img={movie} details="app to search and find details on movies" link="https://calebcarnett.github.io/Movie-Night/" repo="https://github.com/calebcarnett/Movie-Search-Application" />
         </div>
         <div>
           <Project name="Kaikanes-weather-dashboard" img={weather} details="App that uses weather api to get weather on searched city" link="https://lacnoskillz.github.io/Kaikanes-weather-dashboard/" repo="https://github.com/lacnoskillz/Kaikanes-weather-dashboard" />
