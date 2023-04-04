@@ -4,7 +4,7 @@ import Project from './Project.js'
 import doggy from '../../images/doggydaze.png'
 import movie from '../../images/moviesearch.png'
 import weather from '../../images/weather.png'
-import text from '../../images/textedit.png'
+import bean from '../../images/bean.png'
 import blog from '../../images/techblog.png'
 import calendar from '../../images/planner.png'
 //import React and style sheet for react component Portfolio
@@ -21,6 +21,9 @@ export default function Portfolio() {
      
       </div>
       <div className='projectcontainer'>
+      <div>
+          <Project name="Cool-Beans" img={bean} details="Coffee E-commerce website for coffee lovers" link="https://cool-beans-ecommerce.herokuapp.com/" repo="https://github.com/hmustain/Cool-Beans" />
+        </div>
         <div>
           {/* set and pass name, details, link, repo, img for Project component  */}
           <Project name="Doggydaze" img={doggy} details="app to find establishments for you and your dog!" link="https://ancient-plains-63296.herokuapp.com/" repo="https://github.com/RosalvaMartinez/doggydaze" />
@@ -30,9 +33,6 @@ export default function Portfolio() {
         </div>
         <div>
           <Project name="Kaikanes-weather-dashboard" img={weather} details="App that uses weather api to get weather on searched city" link="https://lacnoskillz.github.io/Kaikanes-weather-dashboard/" repo="https://github.com/lacnoskillz/Kaikanes-weather-dashboard" />
-        </div>
-        <div>
-          <Project name="Kaikanes-Text-editor" img={text} details="save notes using indexedDB that can function without internet" link="https://kaikanes-text-editor.herokuapp.com/" repo="https://github.com/lacnoskillz/Kaikanes-Text-editor" />
         </div>
         <div>
           <Project name="Kaikanes-tech-blog" img={blog} details="Blog site where people can login and create/comment on blogs" link="https://whispering-everglades-18227.herokuapp.com/" repo="https://github.com/lacnoskillz/Kaikanes-tech-blog" />
