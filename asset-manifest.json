@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kaikanes-Portfolio/static/css/main.9eb11f8a.css",
-    "main.js": "/Kaikanes-Portfolio/static/js/main.8e626330.js",
+    "main.css": "/Kaikanes-Portfolio/static/css/main.fe36f338.css",
+    "main.js": "/Kaikanes-Portfolio/static/js/main.d4e4f987.js",
     "static/media/IMG_0842.JPG": "/Kaikanes-Portfolio/static/media/IMG_0842.e9d732e03aa9ca4f84b0.JPG",
     "static/media/bean.png": "/Kaikanes-Portfolio/static/media/bean.8fd2e685c43d3a45f05e.png",
     "static/media/moviesearch.png": "/Kaikanes-Portfolio/static/media/moviesearch.7dc214c4fa141e44a7cf.png",
@@ -11,11 +11,11 @@
     "static/media/techblog.png": "/Kaikanes-Portfolio/static/media/techblog.2c9cf838cb7755ed26a3.png",
     "static/media/kaikaneresume.pdf": "/Kaikanes-Portfolio/static/media/kaikaneresume.13f36a217dab0fb92d47.pdf",
     "index.html": "/Kaikanes-Portfolio/index.html",
-    "main.9eb11f8a.css.map": "/Kaikanes-Portfolio/static/css/main.9eb11f8a.css.map",
-    "main.8e626330.js.map": "/Kaikanes-Portfolio/static/js/main.8e626330.js.map"
+    "main.fe36f338.css.map": "/Kaikanes-Portfolio/static/css/main.fe36f338.css.map",
+    "main.d4e4f987.js.map": "/Kaikanes-Portfolio/static/js/main.d4e4f987.js.map"
   },
   "entrypoints": [
-    "static/css/main.9eb11f8a.css",
-    "static/js/main.8e626330.js"
+    "static/css/main.fe36f338.css",
+    "static/js/main.d4e4f987.js"
   ]
 }
