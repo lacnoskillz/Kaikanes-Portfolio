@@ -15,7 +15,7 @@ export default function Portfolio() {
       <div className="porttitle">
         <h2>Portfolio</h2>
         <h3>
-          Here are my projects
+          Here are some of my projects
         </h3>
 
      

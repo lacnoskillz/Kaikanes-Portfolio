@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://lacnoskillz.github.io/Kaikanes-Portfolio/",
   "dependencies": {
+    "@formspree/react": "^2.4.1",
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-regular": "^5.0.13",
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
