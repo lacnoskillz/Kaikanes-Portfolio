@@ -22,23 +22,23 @@ export default function Portfolio() {
       </div>
       <div className='projectcontainer'>
       <div>
-          <Project name="Cool-Beans" img={bean} details="Coffee E-commerce website for coffee lovers" link="https://cool-beans-ecommerce.herokuapp.com/" repo="https://github.com/hmustain/Cool-Beans" />
+          <Project name="Cool-Beans" img={bean} details="Coffee E-commerce website for coffee lovers using MERN stack with Stripepayment API, reacaptcha formspree and Bootstrap" link="https://cool-beans-ecommerce.herokuapp.com/" repo="https://github.com/hmustain/Cool-Beans" />
         </div>
         <div>
           {/* set and pass name, details, link, repo, img for Project component  */}
-          <Project name="Doggydaze" img={doggy} details="app to find establishments for you and your dog!" link="https://ancient-plains-63296.herokuapp.com/" repo="https://github.com/RosalvaMartinez/doggydaze" />
+          <Project name="Doggydaze" img={doggy} details="app to find establishments for you and your dog! Using Express, MySQL, express-handle-bars, recaptcha API and google maps API" link="https://ancient-plains-63296.herokuapp.com/" repo="https://github.com/RosalvaMartinez/doggydaze" />
         </div>
         <div>
-          <Project name="Movie Night" img={movie} details="app to search and find details on movies" link="https://calebcarnett.github.io/Movie-Night/" repo="https://github.com/calebcarnett/Movie-Search-Application" />
+          <Project name="Movie Night" img={movie} details="app to search and find details on movies. Using OMDB API, Youtube API and Tailwind CSS" link="https://calebcarnett.github.io/Movie-Night/" repo="https://github.com/calebcarnett/Movie-Search-Application" />
         </div>
         <div>
-          <Project name="Kaikanes-weather-dashboard" img={weather} details="App that uses weather api to get weather on searched city" link="https://lacnoskillz.github.io/Kaikanes-weather-dashboard/" repo="https://github.com/lacnoskillz/Kaikanes-weather-dashboard" />
+          <Project name="Kaikanes-weather-dashboard" img={weather} details="App that uses weather api to get weather on searched city. Using custom CSS, HTML and javascript" link="https://lacnoskillz.github.io/Kaikanes-weather-dashboard/" repo="https://github.com/lacnoskillz/Kaikanes-weather-dashboard" />
         </div>
         <div>
-          <Project name="Kaikanes-tech-blog" img={blog} details="Blog site where people can login and create/comment on blogs" link="https://whispering-everglades-18227.herokuapp.com/" repo="https://github.com/lacnoskillz/Kaikanes-tech-blog" />
+          <Project name="Kaikanes-tech-blog" img={blog} details="Blog site where people can login and create/comment on blogs. Some of the technologys used were Express, express-handle-bars and mySQL" link="https://whispering-everglades-18227.herokuapp.com/" repo="https://github.com/lacnoskillz/Kaikanes-tech-blog" />
         </div>
         <div>
-          <Project name="Kaikanes-calendar-application" img={calendar} details="add important events to a planner to help manage time" link="https://lacnoskillz.github.io/Kaikanes-calendar-application/" repo="https://github.com/lacnoskillz/Kaikanes-calendar-application" />
+          <Project name="Kaikanes-calendar-application" img={calendar} details="APP to add important events to a planner to help manage time using dayjs and javascript logic" link="https://lacnoskillz.github.io/Kaikanes-calendar-application/" repo="https://github.com/lacnoskillz/Kaikanes-calendar-application" />
         </div>
       </div>
 

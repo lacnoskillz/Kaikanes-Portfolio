@@ -13,7 +13,13 @@ export default function About() {
       <div className='aboutdiv'>
 
         <p><br />
-          Hi my name is kai. Im an abitious Bootcamp student with dreams of becoming a full time Web-Developer. Besides coding I enjoy Playing Guitar and piano, Reading, Skateboarding, Playing boardgames, and Videogames!
+        Hello, my name is Kai and I'm an ambitious bootcamp student with a passion for web development. My goal is to become a full-time web developer and to continue to learn and grow within the industry.
+
+As a developer, I specialize in HTML, CSS, and JavaScript. I also have experience with popular web frameworks such as React and Node.js. In addition to my technical skills, I am a creative problem solver with a keen eye for design.
+
+Outside of coding, I enjoy playing the guitar and piano, reading about technology and innovation, skateboarding, and playing board games and video games. These hobbies keep me grounded and help me stay focused on my goals.
+
+Overall, I am a dedicated and enthusiastic individual who is constantly looking to learn new skills and improve my craft. I am excited about the future of web development and the many possibilities it holds.
         </p>
       </div>
     </div>
