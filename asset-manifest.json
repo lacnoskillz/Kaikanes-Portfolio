@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kaikanes-Portfolio/static/css/main.fe36f338.css",
-    "main.js": "/Kaikanes-Portfolio/static/js/main.d4e4f987.js",
+    "main.js": "/Kaikanes-Portfolio/static/js/main.1b5e367a.js",
     "static/media/IMG_0842.JPG": "/Kaikanes-Portfolio/static/media/IMG_0842.e9d732e03aa9ca4f84b0.JPG",
     "static/media/bean.png": "/Kaikanes-Portfolio/static/media/bean.8fd2e685c43d3a45f05e.png",
     "static/media/moviesearch.png": "/Kaikanes-Portfolio/static/media/moviesearch.7dc214c4fa141e44a7cf.png",
@@ -12,10 +12,10 @@
     "static/media/kaikaneresume.pdf": "/Kaikanes-Portfolio/static/media/kaikaneresume.13f36a217dab0fb92d47.pdf",
     "index.html": "/Kaikanes-Portfolio/index.html",
     "main.fe36f338.css.map": "/Kaikanes-Portfolio/static/css/main.fe36f338.css.map",
-    "main.d4e4f987.js.map": "/Kaikanes-Portfolio/static/js/main.d4e4f987.js.map"
+    "main.1b5e367a.js.map": "/Kaikanes-Portfolio/static/js/main.1b5e367a.js.map"
   },
   "entrypoints": [
     "static/css/main.fe36f338.css",
-    "static/js/main.d4e4f987.js"
+    "static/js/main.1b5e367a.js"
   ]
 }
