@@ -7,6 +7,7 @@ A place for potential employers to look at my work
 ### Technologys
 ***
 * React
+* Formspree
 * React-icons
 * gh-pages
 * Bootstrap
