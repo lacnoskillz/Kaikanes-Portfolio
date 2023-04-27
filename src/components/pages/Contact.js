@@ -25,7 +25,14 @@ const [state, handleSubmit] = useForm("xnqyogvd");
           {/* added onBlur that runs logic that adds a span when its empty and user clicks off dom else its invisible */}
           <input type="name" className="form-control" id="name" onBlur={(e) => {
             if (!e.target.value) {
-              document.getElementById('nameerr').innerHTML = '<span style="color:red;">This field is required.</span>'
+              document.getElementById('nameerr').innerHTML = '<span style="color:red; font-size: 1vh;">This field is required.</span>'
+            } else {
+              document.getElementById('nameerr').innerHTML = ''
+             
+            }
+          }}onChange={(e) => {
+            if (!e.target.value) {
+              document.getElementById('nameerr').innerHTML = '<span style="color:red; font-size: 1vh;">This field is required.</span>'
             } else {
               document.getElementById('nameerr').innerHTML = ''
              
@@ -39,15 +46,15 @@ const [state, handleSubmit] = useForm("xnqyogvd");
            if(e.target.value.match(/.+@.+\..+/)){
               document.getElementById('emailerr').innerHTML = ''
             }else {
-              document.getElementById('emailerr').innerHTML = '<span style="color:red;">Incorrect Email Format</span>'
+              document.getElementById('emailerr').innerHTML = '<span style="color:red; font-size: 1vh;">Incorrect Email Format</span>'
             }
           }} onBlur={(e) => {
             if (!e.target.value) {
-              document.getElementById('emailerr').innerHTML = '<span style="color:red;">This field is required.</span>'
+              document.getElementById('emailerr').innerHTML = '<span style="color:red; font-size: 1vh;">This field is required.</span>'
             } else if(e.target.value.match(/.+@.+\..+/)){
               document.getElementById('emailerr').innerHTML = ''
             }else {
-              document.getElementById('emailerr').innerHTML = '<span style="color:red;">Incorrect Email Format</span>'
+              document.getElementById('emailerr').innerHTML = '<span style="color:red; font-size: 1vh;">Incorrect Email Format</span>'
             }
           }}></input>
           <div id='emailerr'></div>
@@ -57,7 +64,14 @@ const [state, handleSubmit] = useForm("xnqyogvd");
           <textarea className="form-control" id="message" name="message" rows="10" required={true} onBlur={(e) => {
               
             if (!e.target.value) {
-              document.getElementById('texterr').innerHTML = '<span style="color:red;">This field is required.</span>'
+              document.getElementById('texterr').innerHTML = '<span style="color:red; font-size: 1vh;">This field is required.</span>'
+            } else {
+              document.getElementById('texterr').innerHTML = ''
+            }
+          }}onChange={(e) => {
+              
+            if (!e.target.value) {
+              document.getElementById('texterr').innerHTML = '<span style="color:red; font-size: 1vh;">This field is required.</span>'
             } else {
               document.getElementById('texterr').innerHTML = ''
             }

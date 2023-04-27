@@ -19,3 +19,20 @@ h2{
 .thankyou{
     text-align: center;
 }
+#nameerr{
+    
+    text-align: center;
+    margin-top: -18px;
+}
+#emailerr{
+    margin-top: -18px;
+    text-align: center;
+}
+#texterr{
+    margin-top: -18px;
+    text-align: center;
+}
+#nameerr{
+    margin-top: -18px;
+    text-align: center;
+}
