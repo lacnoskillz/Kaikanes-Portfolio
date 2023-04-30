@@ -1,10 +1,13 @@
 import React from 'react';
+import  {useRef } from "react";
 import '../../styles/Contact.css'
 import { useForm } from '@formspree/react';
+import ReCAPTCHA from "react-google-recaptcha";
 export default function Contact() {
 // import react and style sheet for contact.js
 // react card for Contact section
 const [state, handleSubmit] = useForm("xnqyogvd");
+const captchaRef = useRef(null);
   if (state.succeeded) {
       return (<div className='Contactcontainer'>
       
@@ -14,12 +17,29 @@ const [state, handleSubmit] = useForm("xnqyogvd");
     </div>
       )
   }
+  const handleCaptcha = (e) => {
+    e.preventDefault();
 
+    const token = captchaRef.current.getValue();
+    // console.log(token,"here")
+    captchaRef.current.reset();
+    if (token) {
+      handleSubmit(e, token);
+    } else {
+      document.getElementById(
+        "recap"
+      ).innerHTML = `<span style="color:red; font-size: 1vh;">Please check Recaptcha!</span>`;
+    }
+  };
+  // if(screen size) return compact ReCAPTCHA 713
+  // else return normal
+  const viewportWidth = window.innerWidth;
+  console.log(`Window Width: ${viewportWidth}`)
   return (
     <div className='Contactcontainer'>
       <div><h2>Contact Me</h2>
       </div>
-      <form required onSubmit={handleSubmit} >
+      <form required onSubmit={handleCaptcha} >
         <div className="mb-3">
           <label className="form-label">Name</label>
           {/* added onBlur that runs logic that adds a span when its empty and user clicks off dom else its invisible */}
@@ -78,12 +98,24 @@ const [state, handleSubmit] = useForm("xnqyogvd");
           }}></textarea>
           <div id='texterr'></div>
         </div>
-
+        <div id="recapdiv">
+  
+        <div>
+        <ReCAPTCHA
+    sitekey="6LcSSIElAAAAAKpvOYeTMbkbCBF3hla3-9PCImD1"
+     size="compact"
+    onChange={handleCaptcha}
+    ref={captchaRef}
+  />
+  <div id="recap"></div>
+  </div>
+  <div id="subbtndiv">
         <button type="submit" id="subbtn" className="btn btn-primary">Submit</button>
-        
+        </div>
+  
+        </div>
       </form>
-      <div id='errordiv'></div>
-
+      
     </div>
   );
 }

@@ -36,3 +36,12 @@ h2{
     margin-top: -18px;
     text-align: center;
 }
+.errdiv{
+    margin-top: -18px;
+    text-align: center;
+}
+#recapdiv{
+    display: flex;
+  justify-content: center;
+   flex-direction: row;
+}
