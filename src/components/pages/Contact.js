@@ -35,7 +35,7 @@ const captchaRef = useRef(null);
   // else return normal
   let recapsize = "";
   const viewportWidth = window.innerWidth;
-  console.log(`Window Width: ${viewportWidth}`)
+  //console.log(`Window Width: ${viewportWidth}`)
   if(viewportWidth > 713){
     recapsize = "normal"
   }else{

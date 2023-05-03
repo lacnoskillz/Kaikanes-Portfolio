@@ -4,11 +4,19 @@ import '../styles/Navbar.css';
 // import Header from './pages/Header';
 // import backimg from '../images/pb.jpg'
 let viewportWidth = window.innerWidth;
+
 let Lstylevar = "";
 let Rstylevar = "";
 window.addEventListener('resize', function(event) {
   viewportWidth = window.innerWidth;
-  window.location.reload();
+  // window.location.reload();
+  if(viewportWidth < 575){
+    Lstylevar = "-->"
+    Rstylevar = "";
+  }else{
+    Lstylevar = "|"
+    Rstylevar = "|"
+  }
 }, true);
 if(viewportWidth < 575){
   Lstylevar = "-->"
