@@ -10,13 +10,16 @@ align-content: flex-start;
  
  
 }
-li:hover {
+/* li:hover {
   background-color: #8bb894;
   border-radius: 15%;
-}
+} */
 li{
   border-radius: 5%;
   font-size: x-large;
+}
+.nav-link active{
+background-color: black;
 }
 @media screen and (max-width: 580px ) {
   .Navcontainer{
@@ -26,6 +29,10 @@ li{
   li{
     font-size: large;
   }
+  /* .nav-link.active {
+    background-color: rgb(215, 250, 227);
+    
+  } */
 }
 
 /* list of colors

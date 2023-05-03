@@ -21,7 +21,7 @@ h2{
 }
 #nameerr{
     
-    text-align: center;
+    text-align: end;
     margin-top: -18px;
 }
 #emailerr{
@@ -44,4 +44,22 @@ h2{
     display: flex;
   justify-content: center;
    flex-direction: row;
+   padding: 10px;
 }
+span{
+    padding:1px;
+}
+@media only screen and (max-width: 713px){
+    #recapdiv{
+        display: flex;
+        justify-content: center;
+         flex-direction: column;
+    }
+    .Contactcontainer{
+    
+    
+      
+        height: 100%;
+       
+    }
+    }
