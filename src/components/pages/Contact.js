@@ -37,7 +37,7 @@ const captchaRef = useRef(null);
   let viewportWidth = window.innerWidth;
   window.addEventListener('resize', function(event) {
     viewportWidth = window.innerWidth;
-    window.location.reload();
+    // window.location.reload();
 }, true);
 
 // loads page depending on viewportWidth to resize the recaptcha
