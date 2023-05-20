@@ -1,7 +1,8 @@
 import React from 'react';
 import '../../styles/Footer.css'
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { BsStackOverflow } from 'react-icons/bs'
+// import { BsStackOverflow } from 'react-icons/bs'
+import { SiLeetcode } from 'react-icons/si'
 //import react and style sheet for Footer.js
 // import icons used in footer react component
 export default function About() {
@@ -18,7 +19,7 @@ export default function About() {
       <a className="nav-link" href="mailto:kaikane3457@example.com"><FaMailBulk size='3em'/></a>
     </li> */}
         <li className="nav-item">
-          <a className="nav-link" href="https://stackoverflow.com/users/21394229/lacnoskillz"><BsStackOverflow size='2em' /></a>
+          <a className="nav-link" href="https://leetcode.com/lacnoskillz/"><SiLeetcode size='2em' /></a>
         </li>
       </ul>
     </div>
