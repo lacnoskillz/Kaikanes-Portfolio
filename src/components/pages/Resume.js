@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../images/kaikaneresume.pdf'
+import resume from '../../images/KaikaneResumeUpdate.docx'
 import { FaReact, FaNode } from "react-icons/fa";
 import { SiMongodb, SiSequelize, SiPwa } from "react-icons/si";
 import { DiNpm, DiCss3 } from 'react-icons/di'
